@@ -1,7 +1,7 @@
-// http://localhost:3000/pensamentos
+
 
 export interface Pensamento{
-  id:number
+  id?:number
   conteudo:string
   autoria:string
   modelo:string
