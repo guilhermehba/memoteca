@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ListarPensamentoComponent implements OnInit {
   listaPensamentos: Pensamento[] = [];
-
+  teste:any[]=[]
   constructor(private service:PensamentoService) {}
 
   ngOnInit(): void {
